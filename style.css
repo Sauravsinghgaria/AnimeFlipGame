@@ -1,0 +1,35 @@
+body{
+    background-image: url("./images/background.jpg");
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color:#eee;
+}
+
+.row{
+    text-align: center;
+}
+
+
+.card {
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card.done{
+    cursor:default;
+}
+
+.card.done:hover{
+    cursor:default;
+    box-shadow: none;
+}
+.color-hidden{
+    background-color: #eee;
+}
