@@ -2,13 +2,15 @@ body{
     background-image: url("./images/background.jpg");
 }
 h1{
-    text-align: center;
+    text-align: left;
     font-size: 3.5rem;
     color:#eee;
+    margin-left: 10%;
 }
 
 .row{
-    text-align: center;
+    margin-left: 10%;
+    text-align: left;
 }
 
 
